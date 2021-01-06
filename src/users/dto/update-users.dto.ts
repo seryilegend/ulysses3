@@ -12,5 +12,6 @@ type User = {
 };
 
 export class UpdateUsersDto {
+  password: string;
   readonly users: User[];
 }

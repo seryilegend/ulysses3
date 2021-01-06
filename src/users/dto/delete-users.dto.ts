@@ -3,5 +3,6 @@ type User = {
 };
 
 export class DeleteUsersDto {
+  password: string;
   readonly users: User[];
 }

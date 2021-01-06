@@ -7,5 +7,6 @@ type User = {
 };
 
 export class CreateUsersDto {
+  password: string;
   readonly users: User[];
 }
